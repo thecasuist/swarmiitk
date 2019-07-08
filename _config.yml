@@ -1,0 +1,23 @@
+# Site settings
+title: "Swarm Robotics"
+email: "reang.bade@gmail.com"
+description: "Summer Project under E-Club IIT Kanpur"
+baseurl: "https://reangdeba.github.io/swarmiitk"
+url: "https://reangdeba.github.io/swarmiitk"
+twitter_username: reangdeba
+github_username:  reangdeba
+author: Debashish Reang
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+plugins:
+  - jemoji
+  - jekyll-feed
